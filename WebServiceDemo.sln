@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceDemo", "WebServiceDemo\WebServiceDemo.csproj", "{D9289F3D-0387-476F-8642-4D236C869563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebClientt", "HelloWebClientt\HelloWebClientt.csproj", "{B8E93312-69C0-40D4-B47C-52505B6745BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9289F3D-0387-476F-8642-4D236C869563} = {D9289F3D-0387-476F-8642-4D236C869563}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9289F3D-0387-476F-8642-4D236C869563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9289F3D-0387-476F-8642-4D236C869563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9289F3D-0387-476F-8642-4D236C869563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9289F3D-0387-476F-8642-4D236C869563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E93312-69C0-40D4-B47C-52505B6745BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E93312-69C0-40D4-B47C-52505B6745BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E93312-69C0-40D4-B47C-52505B6745BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E93312-69C0-40D4-B47C-52505B6745BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE57A14D-2694-426D-B492-9C57BEE79393}
+	EndGlobalSection
+EndGlobal
